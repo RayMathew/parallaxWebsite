@@ -1,0 +1,19 @@
+{
+  "name": "parallaxwebsite",
+  "version": "1.0.0",
+  "description": "A practice website for creating parallax effect using only HTML and CSS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RayMathew/parallaxWebsite.git"
+  },
+  "author": "Ray Mathew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RayMathew/parallaxWebsite/issues"
+  },
+  "homepage": "https://github.com/RayMathew/parallaxWebsite#readme"
+}
