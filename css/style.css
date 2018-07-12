@@ -1,0 +1,30 @@
+body, html {
+    margin: 0;
+    line-height: 1.8em;
+    color: #666;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    height: 100%;
+}
+
+.img1{
+    background: url('../img/back-view-clouds-cloudy-458555.jpg');
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img2{
+    background: url('../img/pexels-photo-221395.jpeg');
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img3{
+    background: url('../img/pexels-photo-889851.jpeg');
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
