@@ -8,23 +8,68 @@ body, html {
     height: 100%;
 }
 
-.img1{
-    background: url('../img/back-view-clouds-cloudy-458555.jpg');
-    min-height: 100%;
+.title{
+    font-family: 'Gaegu';
+}
+
+.img1, .img2, .img3 {
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
     background-size: cover;
+
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background- */
+
+}
+
+.img1{
+    background-image: url('../img/back-view-clouds-cloudy-458555.jpg');
+    min-height: 100%;
 }
 
 .img2{
-    background: url('../img/pexels-photo-221395.jpeg');
+    background-image: url('../img/pexels-photo-221395.jpeg');
     min-height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .img3{
-    background: url('../img/pexels-photo-889851.jpeg');
+    background-image: url('../img/pexels-photo-889851.jpeg');
     min-height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+}
+
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    font-size: 22px;
+    letter-spacing: 8px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text .border {
+    padding: 10px;
+    background-color: #111;
+    color: white;
+}
+
+.text .border.trans {
+    background-color: transparent;
 }
